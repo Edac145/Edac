@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+</head>
+<body>
+    <h1>Set Alarm</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <label for="name">Alarm Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="hour">Hour:</label>
+        <input type="number" id="hour" name="hour" min="0" max="23" required>
+
+        <label for="minute">Minute:</label>
+        <input type="number" id="minute" name="minute" min="0" max="59" required><br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label for="ringtone">Choose a ringtone:</label>
+        <input type="file" id="ringtone" name="ringtone" accept=".mp3,.wav"><br><br>
+
+        <label for="num_times">Number of Times:</label>
+        <input type="number" id="num_times" name="num_times" min="1" value="1" required>
+
+        <label for="interval">Interval (in seconds):</label>
+        <input type="number" id="interval" name="interval" min="1" value="1" required><br><br>
+
+        <input type="submit" value="Set Alarm">
+    </form>
+    <h2>Future Alarms</h2>
+    <form method="POST" action="/">
+        <ul>
+            {% for name, details in alarms.items() %}
+                <li>
+                    <input type="checkbox" id="{{ name }}" name="{{ name }}" {% if details['active'] %} checked {% endif %}>
+                    <label for="{{ name }}">{{ name }} - {{ details['hour'] }}:{{ details['minute'] }} on {{ details['date'] }}</label>
+                </li>
+            {% endfor %}
+        </ul>
+        <input type="submit" value="Toggle Alarms">
+    </form>
+</body>
+</html>

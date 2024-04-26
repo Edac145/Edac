@@ -1,0 +1,10 @@
+for (int y = 0; y < cols_max; y++) 
+                    {
+                      // Check if two fingers are pressed on the trackpad
+                      while (mouse.isPressed(MOUSE_MIDDLE)) {
+                        // Check if the mouse pointer is on the right side
+                        if (1) {
+                          // Implement scrolling functionality here
+                          mouse.move(0, 0, -1); // Scroll down
+                        }
+                      }
