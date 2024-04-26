@@ -1,0 +1,29 @@
+Slave 1 Temperature ADC Equation : y = -21.686x + 761.83
+Slave 2 Temperature ADC Equation : y = -21.624x + 764.96
+Slave 3 Temperature ADC Equation : y = -21.736x + 761.7
+Slave 4 Temperature ADC Equation : y = -21.559x + 764.64
+Slave 5 Temperature ADC Equation : y = -21.839x + 761.71
+Slave 6 Temperature ADC Equation : y = -21.766x + 762.86
+Slave 7 Temperature ADC Equation : y = -21.774x + 763.01
+Slave 8 Temperature ADC Equation : y = -21.89x + 763.54
+Slave 9 Temperature ADC Equation : y = -21.744x + 764.1
+Slave 10 Temperature ADC Equation : y = -21.65x + 762.57
+Slave 11 Temperature ADC Equation : y = -21.723x + 763.16
+Slave 12 Temperature ADC Equation : y = -21.744x + 763.04
+Slave 13 Temperature ADC Equation : y = -21.649x + 761.4
+Slave 14 Temperature ADC Equation : y = -21.809x + 764.9
+Slave 15 Temperature ADC Equation : y = -21.834x + 764.75
+Slave 16 Temperature ADC Equation : y = -21.721x + 762.39
+Slave 17 Temperature ADC Equation : y = -21.717x + 759.71
+Slave 18 Temperature ADC Equation : y = -21.735x + 762.05
+Slave 19 Temperature ADC Equation : y = -21.713x + 762.15
+Slave 20 Temperature ADC Equation : y = -21.688x + 763.74
+Slave 21 Temperature ADC Equation : y = -21.725x + 761.67
+Slave 22 Temperature ADC Equation : y = -21.728x + 762.85
+Slave 23 Temperature ADC Equation : y = -21.699x + 760.3
+Slave 24 Temperature ADC Equation : y = -21.675x + 761.63
+Slave 25 Temperature ADC Equation : y = -21.687x + 760.58
+
+
+
+
